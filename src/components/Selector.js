@@ -1,6 +1,8 @@
 import React from "react";
+import countriesJson from "../country.json";
 
 const Selector = () => {
+  console.log(countriesJson);
   return (
     <div>
       <select>
