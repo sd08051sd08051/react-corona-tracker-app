@@ -5,8 +5,7 @@ const Selector = () => {
   return (
     <div>
       <select>
-        {countriesJson.map((country) => console.log(country.Country))}
-        {/* 国データの読み込み */}
+        {countriesJson.map((country) => console.log(country.slug))}
       </select>
     </div>
   );
