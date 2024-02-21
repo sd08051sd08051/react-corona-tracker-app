@@ -3,7 +3,7 @@ import React from "react";
 const Title = () => {
   return (
     <div>
-      <h1>Tracker</h1>
+      <h1>NumberTracker</h1>
     </div>
   );
 };
